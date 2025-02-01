@@ -10,4 +10,53 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .alignright {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.alignrighttext {
+  float: right;
+  margin-left: 20px;
+}
+
+  .textfit {
+    flex: 1; /* Allows text to take available space */
+}
   
+.container {
+  display: flex;
+  align-items: flex-start; /* Aligns items at the top */
+}
+
+.text {
+  vertical-align: top;
+  display: inline-block; /* Ensures it aligns properly */
+}
+
+html, body {
+  height: 100%; /* Ensure the body takes up the full height of the viewport */
+  margin: 0; /* Remove default margin */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Stacks content vertically */
+}
+
+main {
+  flex: 1; /* Fills the remaining space */
+}
+
+footer {
+  background-color: #a305a8; /* Background color for footer */
+  color: white; /* Text color inside the footer */
+  padding: 20px; /* Adds space inside the footer */
+  height: 100px;
+}
+
+align {
+  text-align: center; /* Centers the text */
+}
